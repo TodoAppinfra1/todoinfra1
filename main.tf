@@ -1,6 +1,4 @@
-# ram ram jiiiiiii
-#iiiiiiiiiiiiii
-# 33333333333
+
 module "rg" {
   source      = "../modules/azurerm_resource_group"
  rg = var.rg_main

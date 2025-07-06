@@ -1,6 +1,9 @@
+<<<<<<< HEAD
+=======
 # ram ram jiiiiiii
 #iiiiiiiiiiiiii
 # 3333333333
+>>>>>>> main
 
 module "rg" {
   source      = "../modules/azurerm_resource_group"

@@ -2,6 +2,12 @@ module "rg" {
   source      = "../modules/azurerm_resource_group"
  rg = var.rg_main
 }
+
+module "rg" {
+  source      = "../modules/azurerm_resource_group"
+ rg = var.rg_main12
+}
+
 module "vnet1" {
   depends_on    = [module.rg]
   source        = "../modules/azurerm_virtual_network"

@@ -1,18 +1,15 @@
-<<<<<<< HEAD
-=======
 # ram ram jiiiiiii
 #iiiiiiiiiiiiii
 # 3333333333
->>>>>>> main
 
 module "rg" {
   source      = "../modules/azurerm_resource_group"
  rg = var.rg_main
 }
 
-module "rg" {
+module "rg3" {
   source      = "../modules/azurerm_resource_group"
- rg = var.rg_main
+ rg = var.rg_main3
 }
 
 module "vnet1" {
